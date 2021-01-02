@@ -16,7 +16,7 @@ import java.util.List;
 @CrossOrigin
 @RestController
 @RequestMapping("/v1")
-public class Controller {
+public class V1Controller {
 
     @Autowired
     JdbcTemplate jdbcTemplate;

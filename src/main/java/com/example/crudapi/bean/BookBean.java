@@ -7,6 +7,17 @@ public class BookBean {
     private float price;
     private String description;
 
+    public BookBean() {
+        super();
+    }
+
+    public BookBean(String name, float price, String description) {
+        super();
+        this.name = name;
+        this.price = price;
+        this.description = description;
+    }
+
     public long getId() {
         return id;
     }

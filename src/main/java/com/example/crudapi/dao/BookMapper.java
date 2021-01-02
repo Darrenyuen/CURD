@@ -1,8 +1,10 @@
-package com.example.crudapi.service;
+package com.example.crudapi.dao;
 
 import com.example.crudapi.bean.BookBean;
+import org.springframework.stereotype.Repository;
 
-public interface BookService extends BaseService<BookBean, Integer> {
+@Repository
+public interface BookMapper extends BaseMapper<BookBean, Integer>{
     @Override
     int addBook(BookBean book);
 
